@@ -26,19 +26,19 @@ Bot = Client(
 
 
 START_TEXT = """
-Hello {}, I am Telegram [Calculator-Bot](https://Github.com/ZauteKm/Calculator-Bot).
+Hello {}, I am Telegram [Calculator-Bot](https://albinpraveen.ml).
 
 ▷ Send me /calculator and See my Magic.
 
-Made with by ❤️ [@ZauteKm](https://t.me/ZauteKm/604)
+Made with by ❤️ [@ALBINPRAVEEN](https://t.me/i_am_albin_praveen)
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🔥 Source Code', url='https://github.com/ZauteKm/Calculator-Bot'),
-        InlineKeyboardButton('Channel 📢', url='https://t.me/tgbotsProject/152')
+        InlineKeyboardButton('🔥 DEVELOPER', url='https://t.me/i_am_albin_praveen'),
+        InlineKeyboardButton('GROUP 📢', url='https://t.me/musicwithalby')
         ]]
     )
-CALCULATE_TEXT = "▷ Made with by @ZauteKm"
+CALCULATE_TEXT = "▷ Made with by @i_am_albin_praveen"
 CALCULATE_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton("DEL", callback_data="DEL"),
